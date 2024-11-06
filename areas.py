@@ -7,7 +7,7 @@ if shape == "square" :
 elif shape == 'rectangle' :
     side_a = float(input())
     side_b = float(input())
-    area_rectangle = side_b * side_a
+    area_rectangle = side_b / side_a
     print(area_rectangle)
 elif shape == 'circle' :
     radius = float(input())
